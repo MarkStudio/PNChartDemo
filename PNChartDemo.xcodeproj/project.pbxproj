@@ -19,7 +19,6 @@
 		0AF7A878182AA9F6003645C4 /* PCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF7A877182AA9F6003645C4 /* PCAppDelegate.m */; };
 		0AF7A87B182AA9F6003645C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AF7A879182AA9F6003645C4 /* Main.storyboard */; };
 		0AF7A880182AA9F6003645C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AF7A87F182AA9F6003645C4 /* Images.xcassets */; };
-		0AF7A887182AA9F6003645C4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF7A886182AA9F6003645C4 /* XCTest.framework */; };
 		0AF7A888182AA9F6003645C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF7A867182AA9F6003645C4 /* Foundation.framework */; };
 		0AF7A889182AA9F6003645C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AF7A86B182AA9F6003645C4 /* UIKit.framework */; };
 		0AF7A891182AA9F6003645C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0AF7A88F182AA9F6003645C4 /* InfoPlist.strings */; };
@@ -78,7 +77,6 @@
 		0AF7A87A182AA9F6003645C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0AF7A87F182AA9F6003645C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		0AF7A885182AA9F6003645C4 /* PNChartDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PNChartDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0AF7A886182AA9F6003645C4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		0AF7A88E182AA9F6003645C4 /* PNChartDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PNChartDemoTests-Info.plist"; sourceTree = "<group>"; };
 		0AF7A890182AA9F6003645C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0AF7A892182AA9F6003645C4 /* PNChartDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PNChartDemoTests.m; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0AF7A887182AA9F6003645C4 /* XCTest.framework in Frameworks */,
 				0AF7A889182AA9F6003645C4 /* UIKit.framework in Frameworks */,
 				0AF7A888182AA9F6003645C4 /* Foundation.framework in Frameworks */,
 			);
@@ -165,7 +162,6 @@
 				0AF7A867182AA9F6003645C4 /* Foundation.framework */,
 				0AF7A869182AA9F6003645C4 /* CoreGraphics.framework */,
 				0AF7A86B182AA9F6003645C4 /* UIKit.framework */,
-				0AF7A886182AA9F6003645C4 /* XCTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
